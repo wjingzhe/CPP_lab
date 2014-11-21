@@ -1,0 +1,8 @@
+#ifndef _jingz_vector4
+#define _jingz_vector4
+#include <iostream>
+void print4()
+{
+	std::cout<<"jingz;s vector4"<<std::endl;
+}
+#endif

@@ -1,0 +1,37 @@
+﻿生成启动时间为 2014/4/14 0:59:54。
+     1>项目“D:\CPP_lab\TestLuaLib\TestLuaLib\TestLuaLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt lauxlib.c liolib.c loadlib.c lobject.c loslib.c lstrlib.c lua.c luac.c lvm.c
+         lvm.c
+     1>d:\cpp_lab\testlualib\testlualib\lvm.c(53): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         luac.c
+     1>d:\cpp_lab\testlualib\testlualib\luac.c(43): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(164) : 参见“strerror”的声明
+         lua.c
+     1>d:\cpp_lab\testlualib\testlualib\lua.c(425): error C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(449) : 参见“getenv”的声明
+         lstrlib.c
+     1>d:\cpp_lab\testlualib\testlualib\lstrlib.c(845): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         loslib.c
+     1>d:\cpp_lab\testlualib\testlualib\loslib.c(108): error C4996: 'tmpnam': This function or variable may be unsafe. Consider using tmpnam_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(330) : 参见“tmpnam”的声明
+         lobject.c
+     1>d:\cpp_lab\testlualib\testlualib\lobject.c(209): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+         loadlib.c
+     1>d:\cpp_lab\testlualib\testlualib\loadlib.c(331): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+         liolib.c
+     1>d:\cpp_lab\testlualib\testlualib\liolib.c(220): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 参见“fopen”的声明
+         lauxlib.c
+     1>d:\cpp_lab\testlualib\testlualib\lauxlib.c(216): error C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(164) : 参见“strerror”的声明
+         正在生成代码...
+     1>已完成生成项目“D:\CPP_lab\TestLuaLib\TestLuaLib\TestLuaLib.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.91

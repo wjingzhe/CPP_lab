@@ -1,0 +1,15 @@
+﻿生成启动时间为 2014/9/27 2:06:55。
+     1>项目“D:\CPP_lab\TestLanguage\TestLanguage\TestLanguage.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestLanguage.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestLanguage.cpp
+         TestLanguage.cpp
+     1>d:\cpp_lab\testlanguage\testlanguage\testlanguage.cpp(71): error C2244: “C<T>::set”: 无法将函数定义与现有的声明匹配
+                 定义
+                 'void C<T>::set(Iter)'
+                 现有声明
+                 'void C<T>::set(Iter)'
+     1>已完成生成项目“D:\CPP_lab\TestLanguage\TestLanguage\TestLanguage.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.71

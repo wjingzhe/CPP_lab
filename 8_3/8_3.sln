@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "8_3", "8_3.dsp", "{CCB772C0-7E9A-42D3-8A89-9F21834B8D97}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿生成启动时间为 2014/9/20 1:22:17。
+     1>项目“D:\CPP_lab\TestQueue_16th_2\TestQueue_16th_2\TestQueue_16th_2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestQueue_16th_2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestQueue_16th_2.cpp
+         TestQueue_16th_2.cpp
+     1>d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\handle.hpp(20): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+                 d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\handle.hpp(60): 参见对正在编译的类 模板 实例化“Handle<T>”的引用
+     1>d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\handle.hpp(21): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\handle.hpp(23): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\handle.hpp(24): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+     1>d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\handle.hpp(9): error C2614: “Handle<T>”: 非法的成员初始化:“Handle<int>”不是基或成员
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\handle.hpp(8): 编译类 模板 成员函数“Handle<T>::Handle(T *)”时
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\testqueue_16th_2.cpp(33): 参见对正在编译的函数 模板 实例化“Handle<T>::Handle(T *)”的引用
+                 with
+                 [
+                     T=int
+                 ]
+                 d:\cpp_lab\testqueue_16th_2\testqueue_16th_2\testqueue_16th_2.cpp(33): 参见对正在编译的类 模板 实例化“Handle<T>”的引用
+                 with
+                 [
+                     T=int
+                 ]
+     1>已完成生成项目“D:\CPP_lab\TestQueue_16th_2\TestQueue_16th_2\TestQueue_16th_2.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.30

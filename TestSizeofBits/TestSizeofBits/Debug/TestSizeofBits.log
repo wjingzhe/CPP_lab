@@ -1,0 +1,16 @@
+﻿生成启动时间为 2014/11/19 11:58:53。
+     1>项目“D:\CPP_lab\TestSizeofBits\TestSizeofBits\TestSizeofBits.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\CPP_lab\TestSizeofBits\include3 /ID:\CPP_lab\TestSizeofBits\include4 /ID:\CPP_lab\TestSizeofBits\include /ID:\CPP_lab\TestSizeofBits\include2 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\TestSizeofBits.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt TestSizeofBits.cpp
+         TestSizeofBits.cpp
+     1>d:\cpp_lab\testsizeofbits\testsizeofbits\testsizeofbits.cpp(183): warning C4101: “c”: 未引用的局部变量
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\CPP_lab\TestSizeofBits\Debug\TestSizeofBits.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\CPP_lab\TestSizeofBits\Debug\TestSizeofBits.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\CPP_lab\TestSizeofBits\Debug\TestSizeofBits.lib" /MACHINE:X86 Debug\stdafx.obj
+         Debug\testNamespace.obj
+         Debug\TestSizeofBits.obj
+         TestSizeofBits.vcxproj -> D:\CPP_lab\TestSizeofBits\Debug\TestSizeofBits.exe
+     1>已完成生成项目“D:\CPP_lab\TestSizeofBits\TestSizeofBits\TestSizeofBits.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.11

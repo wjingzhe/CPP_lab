@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lesson7 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\USER~1.E02\LOCALS~1\Temp\RSPFC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/lesson7.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\user.E025D52E04114D4\桌面\opengl实验2012\lesson07\lesson7.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\USER~1.E02\LOCALS~1\Temp\RSPFC.tmp" 
+Creating temporary file "C:\DOCUME~1\USER~1.E02\LOCALS~1\Temp\RSPFD.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/lesson7.pdb" /debug /machine:I386 /out:"Debug/lesson7.exe" /pdbtype:sept 
+".\Debug\lesson7.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\USER~1.E02\LOCALS~1\Temp\RSPFD.tmp"
+<h3>Output Window</h3>
+Compiling...
+lesson7.cpp
+C:\Documents and Settings\user.E025D52E04114D4\桌面\opengl实验2012\lesson07\lesson7.cpp(163) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+Linking...
+
+
+
+<h3>Results</h3>
+lesson7.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
