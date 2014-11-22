@@ -1,0 +1,74 @@
+﻿生成启动时间为 2014/11/22 14:45:18。
+     1>项目“D:\CPP_lab\gcc_stl_4.8.3_64\gcc_stl_4.8.3_64\gcc_stl_4.8.3_64.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testGccSTL.cpp
+         testGccSTL.cpp
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\algorithm(58): warning C4068: 未知的杂注
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\utility(58): warning C4068: 未知的杂注
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\x86_64-pc-cygwin\bits\c++config.h(186): error C2146: 语法错误: 缺少“;”(在标识符“size_t”的前面)
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\x86_64-pc-cygwin\bits\c++config.h(186): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\x86_64-pc-cygwin\bits\c++config.h(186): warning C4091: “”: 没有声明变量时忽略“unsigned int”的左侧
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\x86_64-pc-cygwin\bits\c++config.h(187): error C2146: 语法错误: 缺少“;”(在标识符“ptrdiff_t”的前面)
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\x86_64-pc-cygwin\bits\c++config.h(187): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\concept_check.h(33): warning C4068: 未知的杂注
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(48): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(48): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(48): error C2072: “std::__throw_bad_exception”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(52): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(52): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(52): error C2072: “std::__throw_bad_alloc”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(56): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(56): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(56): error C2072: “std::__throw_bad_cast”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(59): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(59): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(59): error C2072: “std::__throw_bad_typeid”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(63): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(63): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(63): error C2072: “std::__throw_logic_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(66): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(66): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(66): error C2072: “std::__throw_domain_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(69): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(69): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(69): error C2072: “std::__throw_invalid_argument”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(72): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(72): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(72): error C2072: “std::__throw_length_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(75): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(75): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(75): error C2072: “std::__throw_out_of_range”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(78): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(78): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(78): error C2072: “std::__throw_runtime_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(81): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(81): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(81): error C2072: “std::__throw_range_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(84): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(84): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(84): error C2072: “std::__throw_overflow_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(87): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(87): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(87): error C2072: “std::__throw_underflow_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(91): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(91): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(91): error C2072: “std::__throw_ios_failure”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(94): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(94): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(94): error C2072: “std::__throw_system_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(97): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(97): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(97): error C2072: “std::__throw_future_error”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(101): error C3646: “__attribute__”: 未知重写说明符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(101): error C2065: “__noreturn__”: 未声明的标识符
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\functexcept.h(101): error C2072: “std::__throw_bad_function_call”: 函数的初始化
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\cpp_type_traits.h(35): warning C4068: 未知的杂注
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\cpp_type_traits.h(98): error C4980: “__value”: 使用此关键字需要 /clr:oldSyntax 命令行选项
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\cpp_type_traits.h(98): error C3630: 处理标记“__value”时出错
+                 d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\cpp_type_traits.h(100): 参见对正在编译的类 模板 实例化“std::__traitor<_Sp,_Tp>”的引用
+     1>d:\cpp_lab\gcc_stl_4.8.3_64\c++\bits\cpp_type_traits.h(98): fatal error C1190: 托管目标代码需要“/clr”选项
+     1>已完成生成项目“D:\CPP_lab\gcc_stl_4.8.3_64\gcc_stl_4.8.3_64\gcc_stl_4.8.3_64.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.89

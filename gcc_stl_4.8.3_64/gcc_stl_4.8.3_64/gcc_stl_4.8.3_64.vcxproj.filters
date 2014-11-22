@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\c++\algorithm">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\array">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\atomic">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\bitset">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cassert">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\ccomplex">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cctype">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cerrno">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cfenv">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cfloat">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\chrono">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cinttypes">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\ciso646">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\climits">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\clocale">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cmath">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\complex">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\condition_variable">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\csetjmp">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\csignal">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstdalign">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstdarg">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstdbool">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstddef">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstdint">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstdio">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstdlib">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cstring">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\ctgmath">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\ctime">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cwchar">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\cwctype">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\deque">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\exception">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\forward_list">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\fstream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\functional">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\future">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\initializer_list">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\iomanip">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\ios">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\iosfwd">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\iostream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\istream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\iterator">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\limits">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\list">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\locale">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\map">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\memory">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\mutex">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\new">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\numeric">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\ostream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\queue">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\random">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\ratio">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\regex">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\scoped_allocator">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\set">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\sstream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\stack">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\stdexcept">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\streambuf">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\string">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\system_error">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\thread">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\tuple">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\type_traits">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\typeindex">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\typeinfo">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\unordered_map">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\unordered_set">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\utility">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\valarray">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\c++\vector">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\c++\complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\c++\cxxabi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\c++\fenv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\c++\tgmath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="testGccSTL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
