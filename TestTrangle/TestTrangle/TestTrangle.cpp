@@ -34,8 +34,7 @@ void init(void)
 	};
 	glGenBuffers(NumBuffers, Buffers);
 	glBindBuffer(GL_ARRAY_BUFFER, Buffers[ArrayBuffer]);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices),
-	vertices, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices),vertices, GL_STATIC_DRAW);
 	ShaderInfo shaders[] = {
 	{ GL_VERTEX_SHADER, "triangles.vert" },
 	{ GL_FRAGMENT_SHADER, "triangles.frag" },
@@ -70,6 +69,7 @@ int main(int argc, char** argv)
 	glutInitContextVersion(3,1);
 	glutInitContextProfile(GLUT_CORE_PROFILE);
 	glutCreateWindow(argv[0]);
+	glewExperimental = true;
 	if (glewInit()) 
 	{
 		cerr << "Unable to initialize GLEW ... exiting" << endl;
@@ -77,6 +77,8 @@ int main(int argc, char** argv)
 	}
 	init();
 	glutDisplayFunc(display);
+	auto s = glGetString(GL_VERSION);
+	cout << "GL_VERSION:" << s << endl;
 	glutMainLoop();
 }
 
