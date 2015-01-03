@@ -3,15 +3,18 @@
 *.lo
 *.o
 *.obj
+*.ilk
+*.pdb
+*.tlog
+*.log
 
 # Precompiled Headers
 *.gch
 *.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+
+
 
 # Fortran module files
 *.mod
@@ -20,9 +23,15 @@
 *.lai
 *.la
 *.a
-*.lib
+
 
 # Executables
 *.exe
 *.out
 *.app
+
+#vs using log or self setting  
+*.suo
+*.sdf
+*.opensdf
+*.vcxproj.user
