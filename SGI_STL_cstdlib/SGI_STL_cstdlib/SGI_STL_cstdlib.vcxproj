@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{930F1731-0A74-44D1-8C51-A4FF39322AF1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SGI_STL_cstdlib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)stdlib_20000608</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\stdlib_20000608\algo.h" />
+    <ClInclude Include="..\stdlib_20000608\algobase.h" />
+    <ClInclude Include="..\stdlib_20000608\alloc.h" />
+    <ClInclude Include="..\stdlib_20000608\bvector.h" />
+    <ClInclude Include="..\stdlib_20000608\char_traits.h" />
+    <ClInclude Include="..\stdlib_20000608\concept_checks.h" />
+    <ClInclude Include="..\stdlib_20000608\container_concepts.h" />
+    <ClInclude Include="..\stdlib_20000608\c_locale.h" />
+    <ClInclude Include="..\stdlib_20000608\c_locale_glibc\gcc_localeinfo.h" />
+    <ClInclude Include="..\stdlib_20000608\defalloc.h" />
+    <ClInclude Include="..\stdlib_20000608\deque.h" />
+    <ClInclude Include="..\stdlib_20000608\function.h" />
+    <ClInclude Include="..\stdlib_20000608\hashtable.h" />
+    <ClInclude Include="..\stdlib_20000608\hash_map.h" />
+    <ClInclude Include="..\stdlib_20000608\hash_set.h" />
+    <ClInclude Include="..\stdlib_20000608\heap.h" />
+    <ClInclude Include="..\stdlib_20000608\iterator.h" />
+    <ClInclude Include="..\stdlib_20000608\list.h" />
+    <ClInclude Include="..\stdlib_20000608\map.h" />
+    <ClInclude Include="..\stdlib_20000608\multimap.h" />
+    <ClInclude Include="..\stdlib_20000608\multiset.h" />
+    <ClInclude Include="..\stdlib_20000608\pair.h" />
+    <ClInclude Include="..\stdlib_20000608\pthread_alloc.h" />
+    <ClInclude Include="..\stdlib_20000608\rope.h" />
+    <ClInclude Include="..\stdlib_20000608\ropeimpl.h" />
+    <ClInclude Include="..\stdlib_20000608\sequence_concepts.h" />
+    <ClInclude Include="..\stdlib_20000608\set.h" />
+    <ClInclude Include="..\stdlib_20000608\slist.h" />
+    <ClInclude Include="..\stdlib_20000608\stack.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_algo.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_algobase.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_alloc.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_bvector.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_codecvt.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_collate.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_config.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_construct.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_ctraits_fns.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_ctype.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_deque.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_exception.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_function.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_hashtable.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_hash_fun.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_hash_map.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_hash_set.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_heap.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_iterator.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_iterator_base.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_list.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_locale.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_map.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_messages_facets.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_monetary.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_multimap.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_multiset.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_numeric.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_numeric_facets.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_pair.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_queue.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_range_errors.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_raw_storage_iter.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_relops.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_rope.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_set.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_slist.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_stack.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_stdio_file.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_string_fwd.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_tempbuf.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_threads.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_time_facets.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_tree.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_uninitialized.h" />
+    <ClInclude Include="..\stdlib_20000608\stl_vector.h" />
+    <ClInclude Include="..\stdlib_20000608\tempbuf.h" />
+    <ClInclude Include="..\stdlib_20000608\tree.h" />
+    <ClInclude Include="..\stdlib_20000608\type_traits.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\stdlib_20000608\algorithm" />
+    <None Include="..\stdlib_20000608\bitset" />
+    <None Include="..\stdlib_20000608\complex" />
+    <None Include="..\stdlib_20000608\deque" />
+    <None Include="..\stdlib_20000608\fstream" />
+    <None Include="..\stdlib_20000608\functional" />
+    <None Include="..\stdlib_20000608\hash_map" />
+    <None Include="..\stdlib_20000608\hash_set" />
+    <None Include="..\stdlib_20000608\iomanip" />
+    <None Include="..\stdlib_20000608\ios" />
+    <None Include="..\stdlib_20000608\iosfwd" />
+    <None Include="..\stdlib_20000608\iostream" />
+    <None Include="..\stdlib_20000608\istream" />
+    <None Include="..\stdlib_20000608\iterator" />
+    <None Include="..\stdlib_20000608\limits" />
+    <None Include="..\stdlib_20000608\list" />
+    <None Include="..\stdlib_20000608\locale" />
+    <None Include="..\stdlib_20000608\Makefile.glibc" />
+    <None Include="..\stdlib_20000608\makefile.mak" />
+    <None Include="..\stdlib_20000608\Makefile.mipspro" />
+    <None Include="..\stdlib_20000608\map" />
+    <None Include="..\stdlib_20000608\memory" />
+    <None Include="..\stdlib_20000608\numeric" />
+    <None Include="..\stdlib_20000608\ostream" />
+    <None Include="..\stdlib_20000608\pthread_alloc" />
+    <None Include="..\stdlib_20000608\queue" />
+    <None Include="..\stdlib_20000608\rope" />
+    <None Include="..\stdlib_20000608\set" />
+    <None Include="..\stdlib_20000608\slist" />
+    <None Include="..\stdlib_20000608\sstream" />
+    <None Include="..\stdlib_20000608\stack" />
+    <None Include="..\stdlib_20000608\stdexcept" />
+    <None Include="..\stdlib_20000608\stdio_streambuf" />
+    <None Include="..\stdlib_20000608\streambuf" />
+    <None Include="..\stdlib_20000608\string" />
+    <None Include="..\stdlib_20000608\strstream" />
+    <None Include="..\stdlib_20000608\utility" />
+    <None Include="..\stdlib_20000608\valarray" />
+    <None Include="..\stdlib_20000608\vector" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\stdlib_20000608\codecvt.cxx" />
+    <ClCompile Include="..\stdlib_20000608\collate.cxx" />
+    <ClCompile Include="..\stdlib_20000608\complex.cxx" />
+    <ClCompile Include="..\stdlib_20000608\complex_exp.cxx" />
+    <ClCompile Include="..\stdlib_20000608\complex_io.cxx" />
+    <ClCompile Include="..\stdlib_20000608\complex_trig.cxx" />
+    <ClCompile Include="..\stdlib_20000608\ctype.cxx" />
+    <ClCompile Include="..\stdlib_20000608\c_locale_glibc\c_locale_glibc.c" />
+    <ClCompile Include="..\stdlib_20000608\c_locale_stub.cxx" />
+    <ClCompile Include="..\stdlib_20000608\fstream.cxx" />
+    <ClCompile Include="..\stdlib_20000608\ios.cxx" />
+    <ClCompile Include="..\stdlib_20000608\iostream.cxx" />
+    <ClCompile Include="..\stdlib_20000608\locale.cxx" />
+    <ClCompile Include="..\stdlib_20000608\message_facets.cxx" />
+    <ClCompile Include="..\stdlib_20000608\monetary.cxx" />
+    <ClCompile Include="..\stdlib_20000608\numeric_facets.cxx" />
+    <ClCompile Include="..\stdlib_20000608\range_errors.cxx" />
+    <ClCompile Include="..\stdlib_20000608\sstream.cxx" />
+    <ClCompile Include="..\stdlib_20000608\stdio_streambuf.cxx" />
+    <ClCompile Include="..\stdlib_20000608\streambuf.cxx" />
+    <ClCompile Include="..\stdlib_20000608\strstream.cxx" />
+    <ClCompile Include="..\stdlib_20000608\time_facets.cxx" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

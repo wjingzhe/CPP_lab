@@ -9,6 +9,8 @@
 #include <iterator>
 #include <vector>
 #include <memory>
+#include <map>
+#include <set>
 
 
 using std::cout;
@@ -114,6 +116,37 @@ void inc(int &a)
 
 int _tmain(int argc, _TCHAR* argv[])
 {
+
+	
+	std::map<int,int> t_map;
+	t_map.insert(std::make_pair<int,int>(20,1000));
+	t_map.insert(std::make_pair<int,int>(1,10));
+	t_map.insert(std::make_pair<int,int>(3,800));
+	t_map.insert(std::make_pair<int,int>(25,160));
+
+	for (auto i = t_map.begin(); i != t_map.end(); ++i)
+	{
+		cout<<"["<<i->first<<"]="<<i->second<<endl;
+	}
+
+
+	std::set<int> t_set;
+	t_set.insert(20);
+	t_set.insert(10);
+	t_set.insert(3);
+	t_set.insert(25);
+
+	for (auto i = t_set.begin(); i != t_set.end(); ++i)
+	{
+		cout<<"["<<*i<<"]="<<endl;
+	}
+
+
+	cout<<"["<<(--t_map.end())->second<<"]="<<endl;
+
+	
+	cout<<std::less<int>()(3,5)<<endl;
+
 	std::ostream_iterator<int> out_it(cout,",");//输出迭代器绑定到命令窗输出行中,每次输出填充一个,和print区别开来
 
 	int ia[6] = {2,21,12,7,19,23};
@@ -205,6 +238,12 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout<<endl;
 
 
+	std::vector<int> iv3;
+	std::copy(iv.begin(),iv.end(),std::back_inserter(iv3));//back_inserter 是返回迭代器的函数，就像一个适配器。名为迭代器适配器，和本例子的函数适配器相仿，用于不同的场景
+
+	std::for_each(iv3.begin(),iv3.end(),print);//如果使用非指向函数名的指针，会报错
+	cout<<endl;
+
 
 //	#define _BIND_IMPLICIT1( \
 //	TEMPLATE_LIST1, PADDING_LIST1, LIST1, COMMA1, \
@@ -284,6 +323,27 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::for_each(vInt2.begin(),vInt2.end(),std::bind(std::mem_fun_ref(&Int::addNum),std::placeholders::_1,3));
 	std::for_each(vInt2.begin(),vInt2.end(),std::mem_fun_ref(&Int::print1));//如果使用非指向函数名的指针，会报错
 	cout<<endl;
+
+
+	
+	
+
+
+	std::istream_iterator<int> in_it(cin),eos;//这里有个bug，必须要用多线程解决。程序主线程启动读写，等待输入操作中断置位，vs_stl不提供切换操作。MS的STL中insert_iterator采用主动读取数据的操作，主线程将中断读取操作中。这会导致一个严重的bug，即构建某个IO操作时提前完成了数据操作，而这可能不是我们期望的。
+
+	std::function<bool(int)> f1 = std::bind(std::less<int>(),std::placeholders::_1,13);
+
+	cout<<"less(3,13):"<<f1(3)<<endl;
+
+	while (!(in_it==eos))
+	{
+		cout<<*in_it;
+		cout<<endl;
+		++in_it;
+	}
+
+
+	
 
 	return 0;
 }

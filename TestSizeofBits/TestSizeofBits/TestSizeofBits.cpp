@@ -48,11 +48,12 @@ public:
 	B();
 	virtual ~B();
 	//using Node::ai;
-private:	
-	/*void print(int i)
+	virtual void printB(int i)
 	{
 		cout<<"------B"<<i<<endl;
-	}*/
+	}
+private:	
+	
 
 
 	
@@ -69,26 +70,17 @@ B::~B()
 
 class C :virtual public Node
 {
-public:
-	C();
-	virtual ~C();
-
-private:
 
 };
 
-C::C()
-{
-}
-
-C::~C()
-{
-}
 
 class D:public B,public C
 {
 public:
-
+	virtual void displayD()
+	{
+		;
+	}
 	D():Node(),B(),C()
 	{
 
@@ -97,6 +89,49 @@ public:
 public:
 
 };
+
+
+class D2:public C,public B
+{
+public:
+	virtual void displayD21()
+	{
+		cout<<d2i<<endl;
+	}
+	
+	D2():Node(),B(),C()
+	{
+
+	}
+	virtual ~D2(){};
+	virtual void displayD22()
+	{
+		cout<<d2i<<endl;
+	}
+public:
+	int d2i;
+};
+
+class D3:public D2
+{
+public:
+	D3();
+	~D3();
+	virtual void displayD3()
+	{
+		cout<<d2i<<endl;
+	}
+private:
+
+};
+
+D3::D3()
+{
+}
+
+D3::~D3()
+{
+}
 
 class testFunc
 {
@@ -150,9 +185,18 @@ void funcCount(int)
 	}
 }
 
+class memory
+{
+public:
+	int i;
+	int j;
+};
+
 int _tmain(int argc, _TCHAR* argv[])
 {
-	thread t1(process);
+
+	cout<<std::pow(-2,2)<<endl;
+	/*thread t1(process);
 	t1.join();
 
 	thread t2(funcCount,0);
@@ -192,9 +236,18 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	cout<<"sizeof:"<<sizeof(a)<<","<<sizeof(b)<<endl;
 
-	cout<<"sizeof:"<<sizeof(int)<<","<<sizeof(long)<<","<<sizeof(float)<<","<<sizeof(double);
+	cout<<"sizeof:"<<sizeof(int)<<","<<sizeof(long)<<","<<sizeof(float)<<","<<sizeof(double);*/
+
+	memory m;
+	auto pMI = &m.i;
+	auto pMJ = &m.j;
+
+	B b1;
 
 	D bb;
+	D2 d2;
+	D3* d3 = new D3();
+	d2.displayD22();
 	bb.print();
 
 	show(&bb);

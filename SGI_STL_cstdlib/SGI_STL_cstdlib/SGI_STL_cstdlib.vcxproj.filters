@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\stdlib_20000608\algo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\alloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\bvector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\c_locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\char_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\concept_checks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\container_concepts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\defalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\deque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\hash_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\hash_set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\hashtable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\multimap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\multiset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\pair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\pthread_alloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\rope.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\ropeimpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\sequence_concepts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\slist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_algo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_algobase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_alloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_bvector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_codecvt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_collate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_construct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_ctraits_fns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_ctype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_deque.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_function.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_hash_fun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_hash_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_hash_set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_hashtable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_iterator_base.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_locale.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_messages_facets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_monetary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_multimap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_multiset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_numeric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_numeric_facets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_pair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_range_errors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_raw_storage_iter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_relops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_rope.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_set.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_slist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_stdio_file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_string_fwd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_tempbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_threads.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_time_facets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_uninitialized.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\stl_vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\tempbuf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\type_traits.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\stdlib_20000608\c_locale_glibc\gcc_localeinfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\stdlib_20000608\algorithm">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\bitset">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\complex">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\deque">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\fstream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\functional">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\hash_map">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\hash_set">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\iomanip">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\ios">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\iosfwd">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\iostream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\istream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\iterator">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\limits">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\list">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\locale">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\Makefile.glibc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\makefile.mak">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\Makefile.mipspro">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\map">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\memory">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\numeric">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\ostream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\pthread_alloc">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\queue">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\rope">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\set">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\slist">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\sstream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\stack">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\stdexcept">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\stdio_streambuf">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\streambuf">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\string">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\strstream">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\utility">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\valarray">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="..\stdlib_20000608\vector">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\stdlib_20000608\c_locale_stub.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\codecvt.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\collate.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\complex.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\complex_exp.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\complex_io.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\complex_trig.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\ctype.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\fstream.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\ios.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\iostream.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\locale.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\message_facets.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\monetary.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\numeric_facets.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\range_errors.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\sstream.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\stdio_streambuf.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\streambuf.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\strstream.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\time_facets.cxx">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\stdlib_20000608\c_locale_glibc\c_locale_glibc.c">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

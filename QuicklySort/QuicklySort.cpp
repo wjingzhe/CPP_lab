@@ -30,14 +30,14 @@ int participation(int a[],int l,int r)
 	return j;
 }
 
+//Î²µÝ¹é
 void QuicklySort(int a[],int l,int r)
 {
-	int s = 0; 
-	if(l<r)
+	while(l<r)
 	{
-		s = participation(a,l,r);
+		int s = participation(a,l,r);
 		QuicklySort(a,l,s-1);
-		QuicklySort(a,s+1,r);
+		l = s+1;
 	}
 }
 

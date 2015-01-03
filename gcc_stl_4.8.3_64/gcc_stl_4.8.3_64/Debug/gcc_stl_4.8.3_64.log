@@ -1,4 +1,4 @@
-﻿生成启动时间为 2014/11/22 14:45:18。
+﻿生成启动时间为 2014/11/23 17:37:38。
      1>项目“D:\CPP_lab\gcc_stl_4.8.3_64\gcc_stl_4.8.3_64\gcc_stl_4.8.3_64.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt testGccSTL.cpp
@@ -71,4 +71,4 @@
 
 生成失败。
 
-已用时间 00:00:00.89
+已用时间 00:00:00.73
